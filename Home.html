@@ -1,38 +1,31 @@
 <html>
-<head>
-    <meta charset="utf-8"/>
-    <title>Search Page</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 
-    <link href="css/style.css" rel="stylesheet"/>
-    <link href="search/tgs.css" rel="stylesheet"/>
+<head>
+    <meta charset="utf-8" />
+    <title>Search Page</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="search/tgs.css" rel="stylesheet" />
 </head>
+
 <body>
     <div class="page_header">
-        <h1> ✈️🔎
+        <h1>
             <a href="https://telegram.org">telegram</a>
-               <a href="https://github.com/cxumol/tg-search">
-                聊天记录搜索
-               </a>  
+            <a href="https://github.com/cxumol/tg-search">聊天记录搜索</a>
         </h1>
     </div>
     <aside class="sidebar">
-
         <div class="input-wrap">
             <i class="fas fa-search" style="color:grey"></i>
-            <input type="search" id="tg-searchbar" value="" placeholder="🔎, 请">
+            <input type="search" id="tg-searchbar" value="" placeholder="输入要搜索的内容">
         </div>
-
         <div class="results-list show" id="results-list">
-        
         </div>
-
     </aside>
-    
     <section class="content">
         <div id="loadmsg"></div>
     </section>
-    
     <script src="search/tgs-lite.js"></script>
 </body>
 
